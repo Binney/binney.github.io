@@ -1,0 +1,19 @@
+To Do (pick and choose!):
+
+* Add a "Show Answer" button which shows the correct_answer
+* Add a "Next Question" button which display the next question from data
+* When you run out of question, refresh the quiz by calling getQuiz() again
+* Add multiple choice answers for the user to see
+* Allow the user to select an answer from a list of radio buttons (use JQuery for this, it will make finding which radio button is selected easier)
+* Add a "Check answer" button which checks if the user has clicked the right radio button
+* Style the whole thing nicely using CSS; pick a colour scheme and suitable font
+* Show an error message if the response code on the JSON request is not 0
+* Make sure the design is responsive: it looks good on big AND small screens, desktops AND mobile
+
+ADVANCED
+
+* Show 10 questions and calculate an overall score for all 10
+* Add a "Choose category" dropdown which changes the OpenTDB.com query made appropriately
+* Add a leaderboard which shows the highest scores
+* Let user enter their name and be added to the leaderboard
+* Make your quiz unique! Add extra game functions like "lifelines", "50/50", "phone a friend", a photograph of Jeremy Paxman, you name it!

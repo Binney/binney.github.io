@@ -1,0 +1,6 @@
+[submodule "yellow-wood"]
+	path = yellow-wood
+	url = https://github.com/Binney/yellow-wood.git
+[submodule "quizwire"]
+	path = quizwire
+	url = https://github.com/Binney/quizwire.git

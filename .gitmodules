@@ -4,3 +4,6 @@
 [submodule "quizwire"]
 	path = quizwire
 	url = https://github.com/Binney/quizwire.git
+[submodule "how-to-quizwire"]
+	path = how-to-quizwire
+	url = https://github.com/Binney/how-to-quizwire.git

@@ -13,6 +13,11 @@ body {
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	td {
+		width: 300px;
+		padding: 50px;
+		text-align: center;
+	}
 	h1, a {
 		font-size: 150%;
 		text-shadow: 0 0 40px black;
@@ -24,12 +29,6 @@ body {
 			transition: all 0.5s ease;
 		}
 	}
-}
-
-td {
-	width: 300px;
-	padding: 50px;
-	text-align: center;
 }
 
 .about {

@@ -11,6 +11,10 @@ body {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto; }
+  .subsites td {
+    width: 300px;
+    padding: 50px;
+    text-align: center; }
   .subsites h1, .subsites a {
     font-size: 150%;
     text-shadow: 0 0 40px black;
@@ -20,11 +24,6 @@ body {
       text-shadow: none;
       color: navy;
       transition: all 0.5s ease; }
-
-td {
-  width: 300px;
-  padding: 50px;
-  text-align: center; }
 
 .about {
   max-width: 500px;

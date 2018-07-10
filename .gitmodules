@@ -7,3 +7,6 @@
 [submodule "tutorial"]
 	path = tutorial
 	url = https://github.com/Binney/tutorial.git
+[submodule "filmclub"]
+	path = filmclub
+	url = git@github.com:Binney/filmclub.git

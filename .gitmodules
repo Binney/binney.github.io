@@ -10,6 +10,3 @@
 [submodule "filmclub"]
 	path = filmclub
 	url = https://github.com/Binney/filmclub.git
-[submodule "dreamcatcher"]
-	path = dreamcatcher
-	url = https://github.com/Binney/dreamcatcher.git

@@ -1,12 +1,6 @@
-[submodule "yellow-wood"]
-	path = yellow-wood
-	url = https://github.com/Binney/yellow-wood.git
 [submodule "quizwire"]
 	path = quizwire
 	url = https://github.com/Binney/quizwire.git
 [submodule "tutorial"]
 	path = tutorial
 	url = https://github.com/Binney/tutorial.git
-[submodule "filmclub"]
-	path = filmclub
-	url = https://github.com/Binney/filmclub.git

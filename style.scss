@@ -7,26 +7,41 @@ body {
 	font-size: 40px;
 	text-align: center;
 	margin-top: 10%;
+	font-weight: normal;
 }
 
-.subsites {
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	td {
-		width: 300px;
-		padding: 50px;
-		text-align: center;
-	}
-	h1, a {
-		font-size: 150%;
-		text-shadow: 0 0 40px black;
-		color: transparent;
-		transition: all 0.5s ease;
-		&:hover {
-			text-shadow: none;
-			color: navy;
+.projects {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	.project {
+		position: relative;
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 300px;
+		text-decoration: none;
+		img {
+			position: absolute;
+		}
+		.project-name {
+			font-size: 150%;
+			text-shadow: 0 0 40px black;
+			color: transparent;
 			transition: all 0.5s ease;
+			text-align: center;
+		}
+
+		&:hover {
+			img {
+				display: none;
+			}
+			.project-name {
+				text-shadow: none;
+				color: navy;
+				transition: all 0.5s ease;
+			}
 		}
 	}
 }

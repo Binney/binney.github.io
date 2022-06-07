@@ -1,52 +1,76 @@
 body {
   background-color: ghostwhite;
-  font-family: 'Dosis', sans-serif; }
+  font-family: "Dosis", sans-serif;
+}
 
 .intro {
   font-size: 40px;
   text-align: center;
-  margin-top: 10%; }
+  margin-top: 10%;
+  font-weight: normal;
+}
 
-.subsites {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto; }
-  .subsites td {
-    width: 300px;
-    padding: 50px;
-    text-align: center; }
-  .subsites h1, .subsites a {
-    font-size: 150%;
-    text-shadow: 0 0 40px black;
-    color: transparent;
-    transition: all 0.5s ease; }
-    .subsites h1:hover, .subsites a:hover {
-      text-shadow: none;
-      color: navy;
-      transition: all 0.5s ease; }
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.projects .project {
+  position: relative;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  text-decoration: none;
+}
+.projects .project img {
+  position: absolute;
+}
+.projects .project .project-name {
+  font-size: 150%;
+  text-shadow: 0 0 40px black;
+  color: transparent;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+.projects .project:hover img {
+  display: none;
+}
+.projects .project:hover .project-name {
+  text-shadow: none;
+  color: navy;
+  transition: all 0.5s ease;
+}
 
 .about {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 50px; }
-  .about::before {
-    content: '?';
-    width: 50px;
-    height: 50px;
-    font-size: 40px;
-    text-align: center;
-    position: absolute;
-    transform: translateX(-50%); }
-  .about .bio {
-    visibility: hidden; }
-  .about:hover::before {
-    visibility: hidden; }
-  .about:hover .bio {
-    visibility: visible; }
-  .about a {
-    font-family: 'Caveat', cursive;
-    font-size: 120%; }
+  padding: 50px;
+}
+.about::before {
+  content: "?";
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.about .bio {
+  visibility: hidden;
+}
+.about:hover::before {
+  visibility: hidden;
+}
+.about:hover .bio {
+  visibility: visible;
+}
+.about a {
+  font-family: "Caveat", cursive;
+  font-size: 120%;
+}
 
 /*# sourceMappingURL=style.css.map */

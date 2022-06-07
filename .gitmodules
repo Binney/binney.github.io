@@ -1,6 +1,3 @@
 [submodule "quizwire"]
 	path = quizwire
 	url = https://github.com/Binney/quizwire.git
-[submodule "tutorial"]
-	path = tutorial
-	url = https://github.com/Binney/tutorial.git
